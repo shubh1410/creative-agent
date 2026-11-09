@@ -6,7 +6,7 @@ Full architecture, QC catalogue, trace walkthrough and trade-offs: [docs/ARCHITE
 
 ## Setup and run
 
-Needs [uv](https://docs.astral.sh/uv/) and an Anthropic API key. The storyboard inputs and brand kit are confidential and not in the repo: unzip `inputs.zip` to `inputs/` and `config-brands.zip` to `config/brands/` in the repo root before running.
+Needs [uv](https://docs.astral.sh/uv/) and an Anthropic API key. The storyboard inputs and brand kit are confidential and not in the repo: unzip `inputs.zip` to `inputs/` and `config-brands.zip` to `config/brands/` in the repo root before running. Check for the sent email for the zip files.
 
 ```bash
 make setup      # installs dependencies and Chromium, creates .env; then set ANTHROPIC_API_KEY in .env
