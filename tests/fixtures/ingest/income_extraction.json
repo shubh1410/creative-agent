@@ -1,0 +1,180 @@
+{
+  "detected_brand": "Income",
+  "scenes": [
+    {
+      "scene_id": "s1",
+      "is_end_frame": false,
+      "elements": [
+        {
+          "role": "headline",
+          "text": "Don't let your helper's unexpected medical expenses catch you off guard.",
+          "highlights": [
+            "unexpected medical expenses"
+          ],
+          "bbox": {
+            "x": 10,
+            "y": 48,
+            "w": 110,
+            "h": 80
+          }
+        },
+        {
+          "role": "legal",
+          "text": "T&Cs apply. Consult an insurance advisor to ensure coverage is suitable and affordable.",
+          "highlights": [],
+          "bbox": {
+            "x": 10,
+            "y": 262,
+            "w": 70,
+            "h": 20
+          }
+        },
+        {
+          "role": "logo",
+          "text": null,
+          "highlights": [],
+          "bbox": {
+            "x": 10,
+            "y": 6,
+            "w": 50,
+            "h": 24
+          }
+        }
+      ],
+      "product_bbox": null
+    },
+    {
+      "scene_id": "s2",
+      "is_end_frame": false,
+      "elements": [
+        {
+          "role": "headline",
+          "text": "Get affordable Domestic Helper insurance from $0.60^ a day!",
+          "highlights": [
+            "Domestic Helper insurance"
+          ],
+          "bbox": {
+            "x": 10,
+            "y": 48,
+            "w": 110,
+            "h": 80
+          }
+        },
+        {
+          "role": "logo",
+          "text": null,
+          "highlights": [],
+          "bbox": {
+            "x": 10,
+            "y": 6,
+            "w": 50,
+            "h": 24
+          }
+        }
+      ],
+      "product_bbox": null
+    },
+    {
+      "scene_id": "s3",
+      "is_end_frame": false,
+      "elements": [
+        {
+          "role": "headline",
+          "text": "Enjoy preferential rates for GP consultations, 6-monthly examinations, dental treatments and vaccinations.",
+          "highlights": [
+            "preferential rates"
+          ],
+          "bbox": {
+            "x": 10,
+            "y": 48,
+            "w": 115,
+            "h": 100
+          }
+        },
+        {
+          "role": "legal",
+          "text": "T&Cs apply.",
+          "highlights": [],
+          "bbox": {
+            "x": 10,
+            "y": 270,
+            "w": 40,
+            "h": 8
+          }
+        },
+        {
+          "role": "logo",
+          "text": null,
+          "highlights": [],
+          "bbox": {
+            "x": 10,
+            "y": 6,
+            "w": 50,
+            "h": 24
+          }
+        }
+      ],
+      "product_bbox": null
+    },
+    {
+      "scene_id": "s4",
+      "is_end_frame": false,
+      "elements": [
+        {
+          "role": "headline",
+          "text": "Flash Sale: Get up to 30% off^ when you purchase now!",
+          "highlights": [
+            "up to 30% off^"
+          ],
+          "bbox": {
+            "x": 10,
+            "y": 48,
+            "w": 110,
+            "h": 70
+          }
+        },
+        {
+          "role": "cta",
+          "text": "Find out more",
+          "highlights": [],
+          "bbox": {
+            "x": 10,
+            "y": 122,
+            "w": 60,
+            "h": 18
+          }
+        },
+        {
+          "role": "logo",
+          "text": null,
+          "highlights": [],
+          "bbox": {
+            "x": 10,
+            "y": 6,
+            "w": 50,
+            "h": 24
+          }
+        }
+      ],
+      "product_bbox": null
+    },
+    {
+      "scene_id": "s5",
+      "is_end_frame": true,
+      "elements": [
+        {
+          "role": "logo",
+          "text": null,
+          "highlights": [],
+          "bbox": {
+            "x": 20,
+            "y": 125,
+            "w": 100,
+            "h": 34
+          }
+        }
+      ],
+      "product_bbox": null
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "detected_brand": "Maxis",
+  "scenes": [
+    {
+      "scene_id": "s1",
+      "is_end_frame": false,
+      "elements": [
+        {
+          "role": "headline",
+          "text": "RM100 Million Device Sale",
+          "highlights": [
+            "RM100 Million"
+          ],
+          "bbox": {
+            "x": 46,
+            "y": 455,
+            "w": 486,
+            "h": 135
+          }
+        },
+        {
+          "role": "logo",
+          "text": null,
+          "highlights": [],
+          "bbox": {
+            "x": 458,
+            "y": 26,
+            "w": 46,
+            "h": 52
+          }
+        }
+      ],
+      "product_bbox": null
+    },
+    {
+      "scene_id": "s2",
+      "is_end_frame": false,
+      "elements": [
+        {
+          "role": "headline",
+          "text": "Amazing deals up for grabs",
+          "highlights": [],
+          "bbox": {
+            "x": 69,
+            "y": 230,
+            "w": 440,
+            "h": 140
+          }
+        },
+        {
+          "role": "subhead",
+          "text": "For a limited time only",
+          "highlights": [],
+          "bbox": {
+            "x": 81,
+            "y": 397,
+            "w": 416,
+            "h": 45
+          }
+        },
+        {
+          "role": "legal",
+          "text": "Terms & Conditions Apply",
+          "highlights": [],
+          "bbox": {
+            "x": 22,
+            "y": 898,
+            "w": 148,
+            "h": 18
+          }
+        },
+        {
+          "role": "logo",
+          "text": null,
+          "highlights": [],
+          "bbox": {
+            "x": 458,
+            "y": 26,
+            "w": 46,
+            "h": 52
+          }
+        }
+      ],
+      "product_bbox": {
+        "x": 36,
+        "y": 527,
+        "w": 512,
+        "h": 405
+      }
+    },
+    {
+      "scene_id": "s3",
+      "is_end_frame": false,
+      "elements": [
+        {
+          "role": "headline",
+          "text": "Choose from a wide range of 5G phones",
+          "highlights": [],
+          "bbox": {
+            "x": 86,
+            "y": 233,
+            "w": 401,
+            "h": 202
+          }
+        },
+        {
+          "role": "legal",
+          "text": "Terms & Conditions Apply",
+          "highlights": [],
+          "bbox": {
+            "x": 22,
+            "y": 898,
+            "w": 148,
+            "h": 18
+          }
+        },
+        {
+          "role": "logo",
+          "text": null,
+          "highlights": [],
+          "bbox": {
+            "x": 458,
+            "y": 26,
+            "w": 46,
+            "h": 52
+          }
+        }
+      ],
+      "product_bbox": {
+        "x": 32,
+        "y": 634,
+        "w": 512,
+        "h": 195
+      }
+    },
+    {
+      "scene_id": "s4",
+      "is_end_frame": false,
+      "elements": [
+        {
+          "role": "headline",
+          "text": "Complete your experience with Home Fibre",
+          "highlights": [],
+          "bbox": {
+            "x": 53,
+            "y": 235,
+            "w": 468,
+            "h": 200
+          }
+        },
+        {
+          "role": "legal",
+          "text": "Terms & Conditions Apply",
+          "highlights": [],
+          "bbox": {
+            "x": 22,
+            "y": 898,
+            "w": 148,
+            "h": 18
+          }
+        },
+        {
+          "role": "logo",
+          "text": null,
+          "highlights": [],
+          "bbox": {
+            "x": 458,
+            "y": 26,
+            "w": 46,
+            "h": 52
+          }
+        }
+      ],
+      "product_bbox": {
+        "x": 51,
+        "y": 537,
+        "w": 520,
+        "h": 300
+      }
+    },
+    {
+      "scene_id": "s5",
+      "is_end_frame": false,
+      "elements": [
+        {
+          "role": "headline",
+          "text": "Get yours with Maxis today",
+          "highlights": [
+            "yours",
+            "today"
+          ],
+          "bbox": {
+            "x": 38,
+            "y": 235,
+            "w": 502,
+            "h": 130
+          }
+        },
+        {
+          "role": "legal",
+          "text": "Terms & Conditions Apply",
+          "highlights": [],
+          "bbox": {
+            "x": 22,
+            "y": 898,
+            "w": 148,
+            "h": 18
+          }
+        },
+        {
+          "role": "logo",
+          "text": null,
+          "highlights": [],
+          "bbox": {
+            "x": 458,
+            "y": 26,
+            "w": 46,
+            "h": 52
+          }
+        }
+      ],
+      "product_bbox": {
+        "x": 36,
+        "y": 527,
+        "w": 512,
+        "h": 405
+      }
+    },
+    {
+      "scene_id": "s6",
+      "is_end_frame": true,
+      "elements": [
+        {
+          "role": "logo",
+          "text": null,
+          "highlights": [],
+          "bbox": {
+            "x": 209,
+            "y": 409,
+            "w": 170,
+            "h": 210
+          }
+        }
+      ],
+      "product_bbox": null
+    }
+  ]
+}

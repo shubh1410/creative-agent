@@ -1,0 +1,47 @@
+[project]
+name = "creative-agent"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "langgraph>=0.6",
+  "langchain>=0.3",
+  "langchain-anthropic",          # add other providers as needed; init_chat_model picks by prefix
+  "langchain-openai",
+  "fastapi",
+  "uvicorn[standard]",
+  "python-multipart",
+  "httpx",
+  "pydantic>=2.7",
+  "pydantic-settings",
+  "playwright",
+  "pillow",
+  "numpy",
+  "imageio-ffmpeg",
+  "fonttools[woff]",              # woff2 output needs brotli, included by [woff]
+  "beautifulsoup4",
+  "mcp[cli]",
+  "pyyaml",
+  "rapidfuzz",
+  "pytesseract",                  # optional at runtime: skipped if Tesseract isn't installed
+  "pypdfium2",
+]
+
+[project.scripts]
+creative-agent = "creative_agent.agent_service.app:main"
+creative-mcp = "creative_agent.mcp_server.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/creative_agent"]
+
+[dependency-groups]
+dev = ["pytest", "pytest-asyncio", "respx"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+pythonpath = ["tests"]
+markers = ["e2e: runs real model calls; needs an API key in .env"]

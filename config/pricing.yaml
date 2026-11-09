@@ -1,0 +1,4 @@
+# USD per million tokens. Keys must match MODEL / MODEL_VISION in .env exactly.
+# Source: platform.claude.com/docs/en/about-claude/pricing (checked 2026-11-07)
+"anthropic:claude-haiku-5-5": {input: 0.10, output: 0.50}
+"anthropic:claude-sonnet-5-5": {input: 2.00, output: 10.00}
